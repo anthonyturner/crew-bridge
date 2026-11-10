@@ -44,3 +44,8 @@ test('gh pr merge commands name their PR, flags or not', () => {
   expect(mergedPr('gh pr view 12')).toBeUndefined()
   expect(mergedPr('gh pr merge')).toBeUndefined()
 })
+
+test('a repo of the configured owner is recognised for any owner, and prose is not', () => {
+  expect(refIn('Fix issue #4 in octo-org/widgets.', 'octo-org/main')?.repo).toBe('octo-org/widgets')
+  expect(refIn('Fix issue #4 and/or the other one', 'octo-org/main')?.repo).toBe('octo-org/main')
+})

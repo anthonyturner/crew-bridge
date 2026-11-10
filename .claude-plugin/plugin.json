@@ -1,7 +1,9 @@
 {
   "name": "crew-bridge",
   "version": "0.2.0",
-  "author": { "name": "Anthony Turner" },
+  "author": {
+    "name": "Anthony Turner"
+  },
   "description": "Animated crew portraits beside the chat that light up as agents work",
   "types": "./types/index.d.ts",
   "userConfig": {
@@ -16,7 +18,10 @@
       "title": "This session's lead",
       "description": "Polaris in the overlay session, Capella in the website session. The lead's team always shows; the other team shows once it has activity.",
       "default": "Polaris",
-      "options": ["Polaris", "Capella"]
+      "options": [
+        "Polaris",
+        "Capella"
+      ]
     },
     "repo": {
       "type": "string",
@@ -24,5 +29,6 @@
       "description": "owner/repo whose needs-tony issues are counted, and the default for issue links when a prompt names no repository.",
       "default": "anthonyturner/rivals_pulse"
     }
-  }
+  },
+  "license": "MIT"
 }

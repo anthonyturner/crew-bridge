@@ -115,3 +115,7 @@ claude plugin test .
 Tests sit beside the modules as `*.test.ts(x)`: pure unit tests for the board, links,
 verdicts, needs count and scoreboard, and end-to-end tests that drive the hooks through
 the engine's test kit.
+
+## License
+
+MIT. See [LICENSE](LICENSE).
