@@ -1,0 +1,6 @@
+{
+  "name": "crew-bridge",
+  "description": "Crew Bridge: animated agent crew portraits beside the Claude Code chat",
+  "owner": { "name": "Anthony Turner" },
+  "plugins": [{ "name": "crew-bridge", "source": "./" }]
+}

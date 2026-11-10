@@ -1,0 +1,28 @@
+{
+  "name": "crew-bridge",
+  "version": "0.2.0",
+  "author": { "name": "Anthony Turner" },
+  "description": "Animated crew portraits beside the chat that light up as agents work",
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "chime": {
+      "type": "boolean",
+      "title": "Chime when you are needed",
+      "description": "Play a soft chime when the lead asks you a question or more needs-tony items open.",
+      "default": false
+    },
+    "lead": {
+      "type": "string",
+      "title": "This session's lead",
+      "description": "Polaris in the overlay session, Capella in the website session. The lead's team always shows; the other team shows once it has activity.",
+      "default": "Polaris",
+      "options": ["Polaris", "Capella"]
+    },
+    "repo": {
+      "type": "string",
+      "title": "Repository",
+      "description": "owner/repo whose needs-tony issues are counted, and the default for issue links when a prompt names no repository.",
+      "default": "anthonyturner/rivals_pulse"
+    }
+  }
+}

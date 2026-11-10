@@ -1,0 +1,9 @@
+# Written by Claude Code at every load; regenerated, never edited.
+.claude-plugin/types/
+/tsconfig.json
+
+# Editor and OS clutter
+.DS_Store
+Thumbs.db
+*.log
+.mcpb-cache/
